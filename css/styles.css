@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --black: #2C2C2C;
+    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-link {
+color: var(--black);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #BBF330;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+/* hero */
