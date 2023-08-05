@@ -82,3 +82,44 @@ a {
 }
 
 /* hero */
+.hero-container {
+  display: flex;
+}
+.hero-title {
+  color: var(--black);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 502px;
+  margin-bottom: 28px;
+}
+.hero-text {
+  color: var(--black);
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 511px;
+  margin-bottom: 46px;
+}
+.hero-style {
+  padding-top: 159px;
+  margin-right: 129px;
+}
+.hero-btn {
+  display: block;
+  padding: 6px 18px;
+  border-radius: 30px;
+  background: var(--button-green);
+  color: var(--black);
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+  max-width: 98px;
+  height: 32px;
+  border: none;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--button-yelow);
+}
