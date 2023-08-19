@@ -123,3 +123,8 @@ a {
 .hero-btn:focus {
   background: var(--button-yelow);
 }
+.apple-link {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+}
